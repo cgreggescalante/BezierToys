@@ -49,7 +49,7 @@ public class BezierCurve implements Curve {
         }
 
         for (PVector point : points) {
-            applet.circle(point.x, point.y, NODE_DISPLAY_SIZE);
+            applet.ellipse(point.x, point.y, NODE_DISPLAY_SIZE, NODE_DISPLAY_SIZE);
         }
 
         applet.popStyle();
